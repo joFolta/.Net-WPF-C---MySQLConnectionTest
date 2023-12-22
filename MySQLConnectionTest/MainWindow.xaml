@@ -1,0 +1,20 @@
+﻿<Window x:Class="MySQLConnectionTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MySQLConnectionTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="505" Width="260">
+    <Grid Margin="-32,0,32,0">
+        <TextBox x:Name="server_box" TextWrapping="Wrap" Text="" Margin="87,92,35,357"/>
+        <TextBox x:Name="database_box" TextWrapping="Wrap" Text="" Margin="87,154,35,296"/>
+        <TextBox x:Name="username_box" TextWrapping="Wrap" Text="" Margin="87,215,35,234"/>
+        <PasswordBox x:Name="password_box" Margin="87,275,35,173"/>
+        <TextBlock TextWrapping="Wrap" Text="Server:" Margin="87,70,10,377"/>
+        <TextBlock TextWrapping="Wrap" Text="Database:" Margin="87,132,10,315"/>
+        <TextBlock TextWrapping="Wrap" Text="User:" Margin="87,194,10,253"/>
+        <TextBlock TextWrapping="Wrap" Text="Password:" Margin="87,253,10,193"/>
+        <Button x:Name="login_button" Content="Log In" Margin="82,351,30,94" Click="login_button_Click"/>
+    </Grid>
+</Window>
