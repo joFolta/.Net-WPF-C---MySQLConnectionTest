@@ -2,7 +2,7 @@
 #### .Net WPF app written with C#
 ![Preview](https://github.com/joFolta/.Net-WPF-C---MySQLConnectionTest/assets/40876495/953bd5e4-fb4a-4466-a720-30fc18785986)
 
-A C# App to check that a MySQL connection is going through 
+A .Net WPF App to check that a MySQL connection is going through and hitting the database
 
 ## Background on WPF
 WPF (Windows Presentation Foundation) is an easy-to-work-with UI framework for building awesome Windows desktop applications <img src="https://github.com/joFolta/.Net-WPF-C---MySQLConnectionTest/assets/40876495/9c569098-1b29-4b57-b603-41e8f3dcbcaa" width="25">. Great for building Enterprise Level Applications (used by AutoDesk, Telerik). It was released in 2006.
